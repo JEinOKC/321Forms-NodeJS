@@ -1,0 +1,36 @@
+{
+  "name": "321forms-nodejs",
+  "version": "0.0.1",
+  "description": "A very basic codebase that will allow you to use Node.js to generate the API authorization header required to connect with the 321Forms Onboarding API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "example": "node ./example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEinOKC/321Forms-NodeJS.git"
+  },
+  "keywords": [
+    "321Forms",
+    "HR",
+    "Onboarding",
+    "Paperwork",
+    "NodeJS",
+    "API"
+  ],
+  "author": "James England",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JEinOKC/321Forms-NodeJS/issues"
+  },
+  "homepage": "https://github.com/JEinOKC/321Forms-NodeJS#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "dateformat": "^1.0.12"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
